@@ -33,6 +33,7 @@ $("#save").click(function() {
 // document.querySelectorAll('li') ==> nodelist
 // for loop to go through each nodelist
 // and then get the text content
+//to save
 $(this).text("saved");
   $('li').each(function(){
     var value = $(this).text();
